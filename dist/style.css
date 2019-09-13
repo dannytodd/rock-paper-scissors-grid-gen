@@ -1,0 +1,17 @@
+table {
+  width: 200px;
+  height: 200px;
+}
+
+tr {
+  padding: 0;
+  margin: 0;
+}
+
+td {
+  background-color: black;
+}
+
+.red { background-color: red }
+.blue { background-color: blue }
+.green { background-color: green }

@@ -1,0 +1,23 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<label for="gridSize">Grid Size : </label><input id="gridSize" type="number" value="20"/>
+<label for="numColours">Number of Colours : </label><input id="numColours" type="number" value="3"/>
+<label for="preprocessing">Pre-processing : </label>
+<select id="preprocessing" name="preprocessing">
+  <option value="none">None</option>
+  <option value="shuffle">Randomised</option>
+  <option value="reverse">Reversed</option>
+</select>
+<label for="mooreNeighbours">Moore Neighbours : </label><input id="mooreNeighbours" type="checkbox">
+<br>
+
+<button onclick="reset()">reset</button>
+<button onclick="start()">start</button>
+<button onclick="step()">step</button>
+
+<table id="table">
+
+</table>
